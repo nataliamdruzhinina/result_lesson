@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css">
+    <meta name="description" content="Это базовый курс по HTML">
+    <title>Document</title>
+</head>
+<body>
+<img src="photo.jpg" alt="photo of Natalia" width="150">
+<h1>Дружинина Наталья</h1>
+<p>Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit. <strong> Architecto molestiae 
+    illum nulla quis repellendus tempore incidunt? </strong> 
+    Quo minima, velit, incidunt tenetur qui non natus excepturi adipisci, 
+    fugit debitis impedit officia.
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    <em>Quod, maxime?</em> Et expedita amet quam, 
+    tempora esse quaerat minus dolorum aut eveniet nam dolores cumque, 
+    quo atque illo quia tempore recusandae!</p>
+
+<a href="https://nodejs.org/api/fs.html" target="_blank">INSTAGRAM</a> | <a href="https://nodejs.org/en/" target="_blank"> VK</a>
+    
+
+<ul>
+    <li>ELEMENT 1</li>
+    <li>ELEMENT 2</li>
+    <li>ELEMENT 3</li>
+    <li>ELEMENT 4</li>
+    <li>ELEMENT 5</li>
+</ul>
+
+<ol>
+    <li>ELEMENT 1</li>
+    <li>ELEMENT 2</li>
+    <li>ELEMENT 3</li>
+    <li>ELEMENT 4</li>
+    <li>ELEMENT 5</li>
+</ol>
+
+
+<p>Lorem ipsum dolor sit amet.</p>
+
+ul>li{Element $}*10    - работает Emmet
+
+<ul>
+    <li>element 1</li>
+    <li>element 2</li>
+    <li>element 3</li>
+    <li>element 4</li>
+    <li>element 5</li>
+    <li>element 6</li>
+    <li>element 7</li>
+    <li>element 8</li>
+    <li>element 9</li>
+    <li>element 10</li>
+</ul>
+
+<table>
+    <thead>
+        <tr>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Годы работы</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>YouTube</td>
+            <td>Blogger</td>
+            <td>2024-2025</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h2>Форма</h2>
+
+<form>
+    <div>
+        <label for="text">Текст</label>
+        <input type="text" id="text" value="Текст по умолчанию">
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="email">
+    </div>
+
+    <div>
+        <label for="password">Пароль</label>
+        <input type="password" id="password">
+    </div>
+
+    <div>
+        <label for="number">Число</label>
+        <input type="number" id="number" min="0">
+    </div>
+
+    <div>
+        <label for="range">Range</label>
+        <input type="range" id="range" min="0" max="10" step="1">
+    </div>
+
+    <div>
+        <label for="date">Дата</label>
+        <input type="date" id="date">
+    </div>
+
+    <div>
+        <label for="color">Цвет</label>
+        <input type="color" id="color">
+    </div>
+
+    <div>
+        
+        <label for="message">Сообщение</label>
+        <br>
+        <textarea id="message" cols = "25" rows = "5">
+        </textarea>
+    </div>
+
+    <div>
+        <label for="language">Язык</label>
+        <select id="language">
+            <option value="russian">Русский</option>
+            <option value="english">Английский</option>
+            <option value="french" selected>Французский</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Количество работ</label>
+        <input type="radio" name="work">1
+        <input type="radio" name="work">2
+        <input type="radio" name="work">5
+        <input type="radio" name="work">10+
+    </div>
+
+    <div>
+        <label>Любимая еда</label>
+        <input type="checkbox" name="food">Салат
+        <input type="checkbox" name="food">Яблоки
+        <input type="checkbox" name="food">Свекла
+        <input type="checkbox" name="food">Морковь
+    </div>
+
+    <div>
+        <input type="submit" value="Отправить форму">
+    </div>
+
+    <button type="submit">Отпрaвить</button>
+</form>
+
+<hr>
+
+
+<!-- Семантичееская верстка -->
+
+<header id="header" class="header">
+    <h2>Site</h2>
+  </header>
+  
+  <nav id="navigation">
+    <ul>
+      <li><a href="#">Item 1</a></li>
+      <li><a href="#">Item 2</a></li>
+      <li><a href="#">Item 3</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+
+  <section> 
+    <article id="block1" class="card header">
+      <h3>Block 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="color"> Soluta nostrum animi sunt consequatur</span> ad natus, eaque alias autem voluptatum doloribus?</p>
+    </article>
+
+    <article id="block2" class="card">
+      <h3>Block 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nostrum animi sunt consequatur ad natus, eaque alias autem voluptatum doloribus?</p>
+    </article>
+  </section>
+
+  <hr>
+
+  <footer id="footer">
+    <h4>Contact me</h4>
+    <ul>
+      <li>Instagram</li>
+      <li>Telegram</li>
+      <li>Youtube</li>
+    </ul>
+  </footer>
+
+</body>
+</html>
